@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+#sketchpad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 519px !important;
+}
+
+#grid {
+
+    width: calc(100% + 20px);
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.cell {
+    border: 1px solid #302f2f;
+    width: 32px !important;
+    height: 32px;
+    background-color: #ffffff;
+    flex-grow: 0;
+    flex-shrink: 0;
+    user-select: none;
+}
