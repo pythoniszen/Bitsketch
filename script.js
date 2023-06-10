@@ -44,14 +44,14 @@ function script() {
         if (gridMode === true) {
             cells.forEach(cell => {
                 cell.style.border = 'none';
-                sketchPad.style.border = 'none';
+          
                 gridButton.style.backgroundColor = 'white';
             });
             gridMode = false;
         } else if (gridMode === false) {
             cells.forEach(cell => {
                 cell.style.border = '1px solid black';
-                sketchPad.style.border = '1px solid black';
+             
                 gridButton.style.backgroundColor = 'rgb(34, 233, 34)';
             });
             gridMode = true;
