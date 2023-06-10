@@ -13,7 +13,7 @@
     background-color: whitesmoke;
     height: 100vh;
   }
-
+  
   html, body {
     width: 100%;
     overflow-x: hidden;
@@ -23,15 +23,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 519px;
-    max-height: 514px;
+    max-width: 100%; /* Adjust the max-width value as needed */
+    max-height: 80vh; /* Adjust the max-height value as needed */
     border: #000000 1px solid;
     flex-grow: 0;
     flex-shrink: 0;
     position: relative;
     overflow: hidden;
-    margin-left: 500px;
-    margin-right: 500px;
   }
   
   #grid {
@@ -42,7 +40,6 @@
     grid-template-rows: repeat(16, 1fr);
     box-sizing: border-box;
   }
-  
   
   .cell {
     border: 1px solid #302f2f;
