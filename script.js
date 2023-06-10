@@ -12,6 +12,11 @@ function script() {
         grid.appendChild(cell);
     }
 
+    const colorSelect = document.querySelector('#colorSelect');
+    colorSelect.addEventListener('change', () => {
+        brushColor = colorSelect.value;
+    });
+
     let cells = document.querySelectorAll('.cell');
 
     const eraseModeButton = document.querySelector('#eraseBtn');
