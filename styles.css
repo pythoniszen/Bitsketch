@@ -31,7 +31,7 @@
     grid-template-columns: repeat(16, 32px);
     grid-template-rows: repeat(16, 32px);
     box-sizing: border-box;
-    overflow: visible;
+    overflow: auto;
     margin: auto;
   }
   
