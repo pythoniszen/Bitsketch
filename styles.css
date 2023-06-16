@@ -23,7 +23,6 @@
     height: 80vh; /* Set a fixed height */
     overflow: auto; /* Enable scrolling within #sketchPad */
     background-color: #d6d6d6;
-    flex-grow: 2;
   }
   
   #grid {
@@ -91,4 +90,6 @@
     height: 38px;
     width: 65px;
   }
+
+  
   
