@@ -90,5 +90,29 @@
     width: 65px;
   }
 
-  
+  #gridSize {
+    height: 38px;
+    width: 65px;
+    margin-top: -20px;
+  }
+
+  #gridSizeWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  /* Change the color of the slider track */
+  #gridSizeWrapper input[type="range"] {
+    -webkit-appearance: none;
+    height: 10px;
+    background-color: grey;
+    border-radius: 5px;
+  }
+
+
+
+
   
