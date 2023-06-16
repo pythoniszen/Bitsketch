@@ -104,7 +104,6 @@
     gap: 4px;
   }
 
-  /* Change the color of the slider track */
   #gridSizeWrapper input[type="range"] {
     -webkit-appearance: none;
     height: 10px;
