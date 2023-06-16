@@ -44,6 +44,21 @@
     flex-shrink: 0;
     user-select: none;
   }
+
+  @media (max-width: 800px) {
+      .cell {
+          width: 20px;
+          height: 20px;
+      }
+  }
+
+  @media (max-width: 600px) {
+      .cell {
+          width: 15px;
+          height: 15px;
+      }
+  }
+
   
   h1 {
     font-weight: 600;
