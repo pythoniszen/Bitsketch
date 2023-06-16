@@ -12,28 +12,30 @@
     justify-content: center;
     background-color: whitesmoke;
     min-height: 100vh;
-    min-width: 100vh;
+    min-width: 100vw;
+    max-width: 960px;
+    margin: 0 auto;
   }
   
   #sketchPad {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw; /* Use viewport width for full width */
-    height: 80vh; /* Set a fixed height */
-    overflow: auto; /* Enable scrolling within #sketchPad */
+    width: 100vw;
+    height: 80vh;
+    overflow: auto;
     background-color: #d6d6d6;
   }
   
   #grid {
-    width: max-content; /* Adjust the width as needed */
-    height: max-content; /* Adjust the height as needed */
+    width: max-content;
+    height: max-content;
     display: grid;
-    grid-template-columns: repeat(16, 32px); /* Specify the desired cell size */
-    grid-template-rows: repeat(16, 32px); /* Specify the desired cell size */
+    grid-template-columns: repeat(16, 32px);
+    grid-template-rows: repeat(16, 32px);
     box-sizing: border-box;
-    overflow: visible; /* Allow grid to expand beyond #sketchPad */
-    margin: auto; /* Center the grid within #sketchPad */
+    overflow: visible;
+    margin: auto;
   }
   
   .cell {
