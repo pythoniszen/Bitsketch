@@ -12,7 +12,7 @@ Bitsketch is a simple web-based drawing application. It allows users to draw on 
 
 ## How to Use
 
-1. You may visit the site at https://pythoniszen.github.io/bitsketch/ or download the repository and open `index.html` in your browser.
+1. You may visit the site at https://pythoniszen.github.io/Bitsketch/ or download the repository and open `index.html` in your browser.
 2. Select a color using the color picker.
 3. Click and drag on the grid to draw.
 4. Use the "Erase" button to switch to erase mode, which will turn grid squares white when you click on them.
