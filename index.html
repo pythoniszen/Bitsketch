@@ -3,29 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <h1>Bitsketch</h1>
 
-  <div id="sketchPad">
-    <div id="grid">
-    </div>
+  <div id="sketch-pad">
+    <div id="grid"></div>
   </div>
   
   <div class="buttons">
-    <input type="color" id="colorSelect" class="btn btn">
-    <button id="eraseBtn" class="btn btn">Erase</button>
-    <button id="gridBtn" class="btn btn">Grid</button>
-    <button id="clearBtn" class="btn btn">Clear</button>
-    <div id="gridSizeWrapper">
-      <p id="gridSizeDisplay"></p>
-      <input type="range" min="1" max="32" value="16" class="slider" id="gridSize">
+    <input type="color" id="color-select" class="btn btn-custom">
+    <button id="erase-btn" class="btn btn-custom">Erase</button>
+    <button id="grid-btn" class="btn btn-custom">Grid</button>
+    <button id="clear-btn" class="btn btn-custom">Clear</button>
+    <div id="grid-size-wrapper">
+      <p id="grid-size-display"></p>
+      <input type="range" min="1" max="32" value="16" class="slider" id="grid-size">
     </div>
   </div>
 
-  <div id="linkContainer">
+  <div id="link-container">
     <a href="https://github.com/pythoniszen" target="_blank"><img src="icons/github.png" alt="GitHub"></a>
     <a href="https://www.linkedin.com/in/nathan-lusk-4138a2240?trk=people-guest_people_search-card" target="_blank"><img src="icons/linkedin.png" alt="Linkedin"></a>
   </div>
